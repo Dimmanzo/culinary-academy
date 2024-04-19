@@ -96,6 +96,19 @@ footer {
     background-color: #EBE9E1;
 }
 
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #E43D12;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
