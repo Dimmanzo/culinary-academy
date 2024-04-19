@@ -51,7 +51,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 0.5em;
 }
 
@@ -97,6 +97,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
+    background: url(../images/hero-image.webp) no-repeat right center/cover;
 }
 
 /* Footer */
@@ -129,6 +130,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -142,7 +144,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 0.5rem;
     }
 
@@ -160,6 +162,12 @@ footer {
     main {
         /* Push main content down, because of a larger header */
         margin-top: 51px;
+        flex: 1 0 auto;
+    }
+
+    /* Hero */
+    #hero {
+        height: 896px;
     }
 
     /* Footer */
@@ -172,7 +180,13 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #E43D12;
     }
+
+    /* Hero */
+    #hero {
+        height: 1134px;
+    }
+
 }
