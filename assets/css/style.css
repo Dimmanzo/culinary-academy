@@ -14,27 +14,84 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic styles */
-    color: #3a3a3a;
+    color: #E43D12;;
     font-family: 'Roboto', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: blue;
+    background-color: #EBE9E1;
+    padding: 0.25rem 0.5rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* Take away link color */
+header a {
+    text-decoration: none;
+    color: inherit;
+    background-color: #EBE9E1;
+    font-size: 70%;
 }
 
 h1 {
     font-family: 'Playfair+Display', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #E43D12;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+#menu > li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 1px solid #E43D12;
+}
+
+/* Navbar styles */
+nav {
+    position: absolute;
+    background-color: #EBE9E1;
+    width: 100%;
+    left: 0;
+    padding: 0 0.5rem;
+    display: none;
+    top: 100%;
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
 /* Main */
 main {
-    background-color: crimson;
+    background-color: #EBE9E1;
     /* Take all space to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
 
 /* Footer */
 footer {
-    background-color: blueviolet;
+    background-color: #EBE9E1;
 }
