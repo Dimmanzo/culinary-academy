@@ -90,7 +90,11 @@ main {
     /* Take all space to push footer down */
     flex: 1 0 auto;
     margin-top: 29px;
+    /* Flex properties for child elements */
+    display: flex;
+    flex-direction: column;
 }
+
 
 /* Hero section */
 
@@ -98,6 +102,22 @@ main {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.webp) no-repeat right center/cover;
+}
+
+#cover-text {
+    background-color: #d6536d73;
+    font-size: 130%;
+    position: static; 
+    bottom: 200px;
+    width: 50%;
+    min-height: 500px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #E43D12;
+    text-align: center;
 }
 
 /* Footer */
