@@ -97,7 +97,6 @@ main {
 
 
 /* Hero section */
-
 #hero {
     height: 600px;
     width: 100%;
@@ -123,7 +122,31 @@ main {
     padding-top: 5px;
 }
 
-/* Sign-up Form */
+/* About US */
+#aboutus {
+    background: url(../images/about-us.webp) no-repeat left center/cover;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#aboutus-box {
+    color: #3b3b3b;
+    background-color: #d7eef1c4;
+    padding: 25px;
+    width: 100%;
+}
+
+#aboutus-box span ul {
+    line-height: 25px;
+    display: block;
+}
+
+#about-images {
+    height: 10%;
+    width: 11rem;
+}
+
+/* Sign UP */
 #signup {
     background: url(../images/sign-up.webp) no-repeat right center/cover;
     padding: 20px 10% 0 10%;
@@ -243,6 +266,15 @@ footer {
         margin: 0 0.5rem;
     }
 
+    /* About US */
+    #aboutus-box {
+        font-size: 1.3rem;
+    }
+
+    #about-images {
+        width: 17rem;
+    }
+
     /* Sign UP*/
     #signup {
         background-position: center;
@@ -280,6 +312,10 @@ footer {
         font-size: 130%;
     }
 
+    #contacts-box p {
+        line-height: 27px;
+    }
+
     /* Main */
     main {
         /* Push main content down, because of a larger header */
@@ -297,7 +333,6 @@ footer {
     }
 
     /* Footer */
-
     #copyright {
         font-size: 1.2rem;
     }
@@ -318,6 +353,18 @@ footer {
         font-size: 140%;
     }
 
+    /* About US */
+    #aboutus-box {
+        line-height: 120%;
+        font-size: 100%;
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    #about-images {
+        width: 12rem;
+    }
+
     /* Sign UP */
     #signup {
         margin-bottom: 2px;
@@ -329,15 +376,17 @@ footer {
     }
 
     /* Contacts */
-
     #contacts-box {
-        margin-top: 10%;
+        margin-top: 5%;
         margin-left: 50%;
         width: 30%;
     }
 
-    /* Footer */
+    #contacts-box p {
+        line-height: 27px;
+    }
 
+    /* Footer */
     #copyright {
         font-size: 1.1rem;
     }
