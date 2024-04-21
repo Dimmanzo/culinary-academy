@@ -141,7 +141,7 @@ main {
     display: block;
 }
 
-#about-images {
+#aboutus-box img {
     height: 10%;
     width: 11rem;
 }
@@ -271,7 +271,7 @@ footer {
         font-size: 1.3rem;
     }
 
-    #about-images {
+    #aboutus-box img {
         width: 17rem;
     }
 
@@ -361,7 +361,7 @@ footer {
         margin-left: 20%;
     }
 
-    #about-images {
+    #aboutus-box img {
         width: 12rem;
     }
 
