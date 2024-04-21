@@ -123,32 +123,9 @@ main {
     padding-top: 5px;
 }
 
-/* Testimonials */
-.testimonial {
-    margin-top: 20px;
-}
-
-.testimonial blockquote {
-    background-color: #f9f9f9;
-    border-left: 5px solid #3b3b3b;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.testimonial blockquote p {
-    margin: 0;
-}
-
-.testimonial cite {
-    font-style: italic;
-    color: #777777;
-}
-
-/* Form */
+/* Sign-up Form */
 #signup {
-    background-image: url("../images/sign-up.webp");
-    background-size: cover;
-    background-position: 75%;
+    background: url(../images/sign-up.webp) no-repeat right center/cover;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
@@ -156,19 +133,19 @@ main {
 #signup-form {
     color: #3b3b3b;
     background-color: #d7eef1c4;
-    padding: 30px;
+    padding: 25px;
 }
 
 #signup-form>h2 {
     color: #3b3b3b;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .text-input {
     background: transparent;
     color: #3b3b3b;
     width: 100%;
-    height: 25px;
+    height: 20px;
     margin: 5px 0 20px 0;
     border: 1px solid #3b3b3b;
     border-radius: 2px;
@@ -191,6 +168,22 @@ main {
     color: #ffffff;
 }
 
+/* Contacts */
+#contacts {
+    background: url(../images/contact-us.webp) no-repeat left center/cover;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#contacts-box {
+    color: #3b3b3b;
+    background-color: #d7eef1c4;
+    padding: 25px;
+}
+
+#contacts-box p {
+    line-height: 25px;
+}
 
 /* Footer */
 footer {
@@ -250,10 +243,11 @@ footer {
         margin: 0 0.5rem;
     }
 
-    /* Form */
+    /* Sign UP*/
     #signup {
         background-position: center;
         position: relative;
+        margin-bottom: 2px;
     }
 
     #signup-form {
@@ -261,15 +255,29 @@ footer {
         position: absolute;
         left: 10%;
         top: 150px;
+        font-size: 130%;
+    }
+
+    .text-input {
+        height: 25px;
     }
 
     .text-input:hover {
-        border-color: #f16c6b;
+        border-color: red;
     }
 
     .join-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
+        background-color: #ffffff;
+        color: #3b3b3b;
+    }
+
+    /* Contacts */
+    #contacts-box {
+        margin-top: 30%;
+        margin-left: 60%;
+        padding: 25px;
+        width: 300px;
+        font-size: 130%;
     }
 
     /* Main */
@@ -308,6 +316,24 @@ footer {
 
     #cover-text {
         font-size: 140%;
+    }
+
+    /* Sign UP */
+    #signup {
+        margin-bottom: 2px;
+    }
+
+    #signup-form {
+        margin-top: -6%;
+        margin-left: 29%;
+    }
+
+    /* Contacts */
+
+    #contacts-box {
+        margin-top: 10%;
+        margin-left: 50%;
+        width: 30%;
     }
 
     /* Footer */
