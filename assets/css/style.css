@@ -32,7 +32,7 @@ header {
     box-shadow: 0 1px 2px #3b3b3b;
 }
 
-/* Take away link color */
+/* - link color */
 header a {
     text-decoration: none;
     color: inherit;
@@ -87,22 +87,20 @@ nav {
 /* Main */
 main {
     background-color: #ffffff;
-    /* Take all space to push footer down */
     flex: 1 0 auto;
     margin-top: 29px;
-    /* Flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
 
-/* Index page */
+/* Index */
 #index {
     background: url(../images/hero-image.webp) no-repeat left center/cover;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
 
-#index-box {
+#index-section {
     color: #3b3b3b;
     background-color: #d7eef1c4;
     padding: 25px;
@@ -110,7 +108,7 @@ main {
     margin-bottom: 20px;
 }
 
-#index-box h2 {
+#index-section h2 {
     text-align: center;
 }
 
@@ -277,7 +275,7 @@ footer {
         flex: 1 0 auto;
     }
 
-    /* Hero */
+    /* Index */
     #logo-img {
         width: 40%;
         margin-left: 30%;
@@ -288,7 +286,7 @@ footer {
         line-height: 110%;
     }
 
-    /* About US */
+    /* About us */
     #aboutus-box {
         font-size: 1.3rem;
     }
@@ -297,7 +295,7 @@ footer {
         width: 17rem;
     }
 
-    /* Sign UP*/
+    /* Sign up */
     #signup {
         background-position: center;
         position: relative;
@@ -350,19 +348,19 @@ footer {
         border-bottom: 1px solid #3b3b3b;
     }
 
-    /* Index page */
+    /* Index */
     #logo-img {
         width: 10%;
         margin-left: 45%;
     }
 
-    #index-box {
+    #index-section {
         width: 70%;
         margin-left: 15%;
         font-size: 90%;
     }
 
-    /* About US */
+    /* About us */
     #aboutus-box {
         line-height: 120%;
         font-size: 110%;
@@ -375,7 +373,7 @@ footer {
         margin-left: 2%;
     }
 
-    /* Sign UP */
+    /* Sign up */
     #signup {
         margin-bottom: 2px;
     }
