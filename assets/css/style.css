@@ -46,7 +46,7 @@ h1 {
 }
 
 #menu {
-    font-size: 1rem; /* Adjust as needed */
+    font-size: 1rem;
     letter-spacing: 1px;
     list-style-type: none;
 }
@@ -89,14 +89,13 @@ nav {
 
 /* Main */
 main {
-    background-color: #ffffff;
     flex: 1 0 auto;
     margin-top: 29px;
     display: flex;
-    flex-direction: column;
+
 }
 
-/* Index */
+/* Home page */
 #index {
     background: url(../images/index.webp) no-repeat left center/cover;
     padding: 20px 10% 0 10%;
@@ -167,7 +166,7 @@ main {
     margin-bottom: 0.5em;
 }
 
-#aboutus-box span {
+#aboutus-box p {
     display: block;
     margin-bottom: 1em;
 }
@@ -228,6 +227,29 @@ main {
     color: #ffffff;
 }
 
+/* Confirmation */
+#confirmation-box {
+    color: #3b3b3b;
+    background-color: #d7eef1c4;
+    padding: 25px;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#confirmation-box h2,
+#confirmation-box h3 {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#confirmation-box p {
+    display: block;
+    margin-bottom: 1em;
+}
+
 /* Contacts */
 #contacts {
     background: url(../images/contact-us.webp) no-repeat left center/cover;
@@ -236,7 +258,6 @@ main {
 }
 
 #contacts-box {
-    color: #3b3b3b;
     background-color: #d7eef1c4;
     padding: 25px;
 }
@@ -250,6 +271,7 @@ footer {
 }
 
 #social-networks {
+    
     text-align: center;
     padding: 5px 0;
     display: flex;
@@ -261,10 +283,6 @@ footer {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3b3b3b;
-}
-
-.copyright {
     color: #3b3b3b;
 }
 
@@ -394,6 +412,11 @@ footer {
     /* Sign up */
     #signup-form {
         margin-top: 50px;
+    }
+
+    /* Confirmation */
+    #confirmation-box {
+        width: 60%;
     }
 
     /* Contacts */
