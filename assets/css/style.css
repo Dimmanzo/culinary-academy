@@ -262,6 +262,15 @@ main {
     padding: 25px;
 }
 
+#contacts-box h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#contacts-box a {
+    text-decoration: none;
+}
+
 /* Footer */
 footer {
     box-shadow: 0 -1px 2px #333333;
@@ -421,8 +430,7 @@ footer {
 
     /* Contacts */
     #contacts-box {
-        margin-top: 5%;
-        margin-left: 50%;
+        margin-top: 60px;
         width: 30%;
     }
 }
