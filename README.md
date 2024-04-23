@@ -40,25 +40,25 @@ In this section, you should go over the different parts of your project, and des
   - The about us page will provide the user with additional information about the school. 
   - This section is valuable to the user as they will be able to easily identify what skills can they learn during these studies and also get a little bit more information about school's foundation and main goal. 
 
-![About us](ttps://github.com/Dimmanzo/culinary-academy/blob/main/media/about-us-page.png)
+![About us](https://github.com/Dimmanzo/culinary-academy/blob/main/media/about-us-page.png)
 
 - __Sign Up page__
 
   - This page will allow the user to get signed up to Culinary Academy to start their cooking journey with an amazing community. The user will be asked to submit their full name, email address, age and country. 
 
-![Sign up](https://github.com/lucyrush/readme-template/blob/master/media/sign-up-page.png)
+![Sign up](https://github.com/Dimmanzo/culinary-academy/blob/main/media/sign-up-page.png)
 
 - __Confirmation page__
 
   - After signing up user will be redirected to another page called: confirmation page. This page which will send all of the data to the database and also thank the user for signing up.
 
-![Confirmation](https://github.com/lucyrush/readme-template/blob/master/media/confirmation-page.png)
+![Confirmation](https://github.com/Dimmanzo/culinary-academy/blob/main/media/confirmation-page.png)
 
 - __Contacts page__
 
   - After signing up user will be redirected to another page called: confirmation page. This page which will send all of the data to the database and also thank the user for signing up.
 
-![Contacts](https://github.com/lucyrush/readme-template/blob/master/media/contacts-page.png)
+![Contacts](https://github.com/Dimmanzo/culinary-academy/blob/main/media/contacts-page.png)
 
 ## Testing 
 
