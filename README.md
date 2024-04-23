@@ -8,8 +8,6 @@ Culinary Academy is a FICTIONARY site about a online cooking school.
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
@@ -101,11 +99,17 @@ Live project can be found here - https://dimmanzo.github.io/culinary-academy/ind
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The text for the Home, About us and Confirmation pages was written with a help of [ChatGPT](https://chat.openai.com/) and improved by developer.
+- Some ideas were taken from the Love running project: [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3).
+- The icons in the footer were taken from: [Font Awesome](https://fontawesome.com/).
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- Favicon and logo on the main page was made by a developer: [Logo.com](https://logo.com/).
+- The images used for the backgrounds of the pages were taken from these open source sites:
+[Home](https://www.pexels.com/photo/fruit-salads-in-plate-1640774/), [About us](https://unsplash.com/photos/three-round-white-plates-with-pasta-near-two-glass-cuups--F_5g8EEHYE), [Sign up](https://pixabay.com/photos/cooking-ingredients-flat-lay-bake-5880136/), [Contacts](https://unsplash.com/photos/variety-of-sliced-fruits-08bOYnH_r_E).
+- The images used for the home, about us pages were taken from this other open source site: [Home - 1](https://www.stockfood.com/images/00264056-Three-chefs-examining-the-contents-of-a-pan), [About us - 1](https://www.pexels.com/photo/men-cooking-in-the-kitchen-6823598/), [About us - 2](https://www.pexels.com/photo/happy-asian-women-with-dish-in-plate-5908197/), [About us - 3](https://www.pexels.com/photo/a-chef-tossing-fried-rice-from-the-pan-6937437/), [About us - 4](https://www.pexels.com/photo/man-in-white-dress-shirt-holding-silver-bowl-4253312/).
+
+### Features
+
+- Usage of image preload function was taken from: [Preload](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel/preload).
