@@ -2,7 +2,7 @@
 
 [View live project here!](https://dimmanzo.github.io/culinary-academy/)
 
-Culinary Academy is a <span style="color:red;">FICTIONAL site </span>about a cooking school. Website design is really simple, allowing users to easily access all of the information. This site will be targeted towards people who want to learn or improve their cooking skills.
+Culinary Academy is a FICTIONAL site about a cooking school. The website design is simple, allowing users to easily access all of the information. This site will be targeted towards people who want to learn or improve their cooking skills. It introduces visitors to the main goal of the school and the skills that can be acquired or improved upon through our courses. Visitors will also have the opportunity to meet the mentors of the Culinary Academy and become acquainted with their professional skills. On this site, visitors will find all the contact information necessary and can register to start a culinary course.
 
 ![Responsive Mockup](https://github.com/Dimmanzo/culinary-academy/blob/main/media/culinary-academy-mockup.png)
 
@@ -20,7 +20,7 @@ Culinary Academy is a <span style="color:red;">FICTIONAL site </span>about a coo
 
 - __Home page__
 
-  - Home page design: includes a logo, background and chefs image of Culinary Academy. In the middle of the website is located a box with all information about the school.
+  - Home page design: includes a logo, background and chefs image of Culinary Academy. In the home page is located all information about the school.
   - This page introduces the user to website.
 
 ![Home page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/home-page.png)  
@@ -28,14 +28,14 @@ Culinary Academy is a <span style="color:red;">FICTIONAL site </span>about a coo
 - __Footer__ 
 
   - The Footer section includes links to the relevant social media sites. All links open up in a new tab to allow easy navigation for the user. 
-  - Also footer has a copyright information. To deter unauthorized use of your website content.
+  - Also footer includes a copyright information. To deter unauthorized use of your website content.
   - The footer is valuable to the user as it encourages them to keep connected via social media and also with copyright it secures the web page.
 
 ![Footer](https://github.com/Dimmanzo/culinary-academy/blob/main/media/footer.png)
 
 - __About us page__
 
-  - The about us page will provide the user with additional information about the school. 
+  - The about us page will provide the user with additional information about the school and it's history. 
   - This section is valuable to the user as they will be able to easily identify what skills can they learn during these studies and also get a little bit more information about school's foundation and main goal. 
 
 ![About us](https://github.com/Dimmanzo/culinary-academy/blob/main/media/about-us-page.png)
@@ -62,7 +62,7 @@ Culinary Academy is a <span style="color:red;">FICTIONAL site </span>about a coo
 
 ## Testing 
 
-| Action  | Result | <span style="color:green;">Pass</span> or <span style="color:red;">Fail</span>  |
+| Action  | Result | Fail  |
 | :-: | :-: | :-: |
 | Press on Logo | Redirected to index.html page | ✅ |
 | Press on Home | Redirected to index.html page | ✅ |
@@ -80,9 +80,9 @@ Culinary Academy is a <span style="color:red;">FICTIONAL site </span>about a coo
 | Press on Youtube icon in footer | Opens Youtube page in a new tab | ✅ |
 | Press on Instagram icon in footer | Opens Instagram page in a new tab | ✅ |
 
-- All functions of the website have been thoroughly tested on various screen sizes to ensure seamless performance across different devices.
+- All functions of the website have been thoroughly tested on various screen sizes and  to ensure seamless performance across different devices.
 
-- All functions of the website have been thoroughly tested across multiple browsers, including: Google Chrome, Microsoft Edge, Mozilla Firefox, Opera.
+- All functions of the website have been tested across multiple browsers, including: Google Chrome, Microsoft Edge, Mozilla Firefox, Opera.
 
 - After testing website with a lighthouse tool I noticed that performance was below 80%, so had to spend some time finding ways to increase that. Compressing images and preloading them fixed the problem.
 
@@ -104,7 +104,7 @@ Culinary Academy is a <span style="color:red;">FICTIONAL site </span>about a coo
 
 ## Deployment
 
-- Site was deployed to GitHub pages. This steps were applied: 
+- The site was deployed to GitHub pages. These steps were applied: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
