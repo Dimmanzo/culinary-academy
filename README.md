@@ -2,7 +2,7 @@
 
 [View live project here!](https://dimmanzo.github.io/culinary-academy/)
 
-Culinary Academy is a FICTIONARY site about a online cooking school. 
+Culinary Academy is a <span style="color:red;">FICTIONAL site </span>about a cooking school. Website design is really simple, allowing users to easily access all of the information. This site will be targeted towards people who want to learn or improve their cooking skills.
 
 ![Responsive Mockup](https://github.com/Dimmanzo/culinary-academy/blob/main/media/culinary-academy-mockup.png)
 
@@ -20,8 +20,8 @@ Culinary Academy is a FICTIONARY site about a online cooking school.
 
 - __Home page__
 
-  - Home page design: includes a logo, background and chefs image of Culinary Academy. In the middle of the website you'll find a box with all information about the school.
-  - This page introduces the user to website theme: Cooking school.
+  - Home page design: includes a logo, background and chefs image of Culinary Academy. In the middle of the website is located a box with all information about the school.
+  - This page introduces the user to website.
 
 ![Home page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/home-page.png)  
 
@@ -42,52 +42,69 @@ Culinary Academy is a FICTIONARY site about a online cooking school.
 
 - __Sign Up page__
 
-  - This page will allow the user to get signed up to Culinary Academy to start their cooking journey with an amazing community. The user will be asked to submit their full name, email address, age and country. 
+  - This page will allow the user to get signed up to Culinary Academy to start their cooking journey. The user will be asked to submit their full name, email address, age and country. 
+  - This page allows user to easily sign up for the studies.
 
 ![Sign up](https://github.com/Dimmanzo/culinary-academy/blob/main/media/sign-up-page.png)
 
 - __Confirmation page__
 
-  - After signing up user will be redirected to another page called: confirmation page. This page which will send all of the data to the database and also thank the user for signing up.
+  - After signing up, user gets redirected to this page.
+  - User gets a confirmation, with a thank you message.
 
 ![Confirmation](https://github.com/Dimmanzo/culinary-academy/blob/main/media/confirmation-page.png)
 
 - __Contacts page__
 
-  - After signing up user will be redirected to another page called: confirmation page. This page which will send all of the data to the database and also thank the user for signing up.
+  - This page allows user to see all of the contact information of the school.
 
 ![Contacts](https://github.com/Dimmanzo/culinary-academy/blob/main/media/contacts-page.png)
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+| Action  | Result | <span style="color:green;">Pass</span> or <span style="color:red;">Fail</span>  |
+| :-: | :-: | :-: |
+| Press on Logo | Redirected to index.html page | ✅ |
+| Press on Home | Redirected to index.html page | ✅ |
+| Press on About us | Redirected to about-us.html page | ✅ |
+| Press on Sign up | Redirected to sign-up.html page | ✅ |
+| Press on Contacts | Redirected to contacts.html page | ✅ |
+| No text in Sign up form inputs | Enter empty inputs notification | ✅ |
+| No age selection in Sign up form | Select one of the radio buttons notification | ✅ |
+| No country selection in Sign up form | Select one of the countries notification | ✅ |
+| Wrong email input in Sign up form | Include '@' in the email adress notification | ✅ |
+| Press on Submit button after all inputs entered | Redirected to confirmation.html | ✅ |
+| Press on Email link in Contacts page | Opens the default email application | ✅ |
+| Press on Facebook icon in footer | Opens Facebook page in a new tab | ✅ |
+| Press on X(Twitter) icon in footer | Opens X(Twitter) page in a new tab | ✅ |
+| Press on Youtube icon in footer | Opens Youtube page in a new tab | ✅ |
+| Press on Instagram icon in footer | Opens Instagram page in a new tab | ✅ |
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+- All functions of the website have been thoroughly tested on various screen sizes to ensure seamless performance across different devices.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+- All functions of the website have been thoroughly tested across multiple browsers, including: Google Chrome, Microsoft Edge, Mozilla Firefox, Opera.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+- After testing website with a lighthouse tool I noticed that performance was below 80%, so had to spend some time finding ways to increase that. Compressing images and preloading them fixed the problem.
 
 ### Validator Testing 
 
 - HTML
-  - Home page - no errors found when passing through the offficial [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Findex.html)
-  - About us page - no errors found when passing through the offficial [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fabout-us.html)
-  - Sing up page - no errors found when passing through the offficial [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fsign-up.html)
-  - Confirmation page - no errors found when passing through the offficial [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fconfirmation.html)
-  - Contacts page - no errors found when passing through the offficial [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fcontacts.html)
+  - Home page - no errors found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Findex.html)
+  - About us page - no errors found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fabout-us.html)
+  - Sign up page - no errors found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fsign-up.html)
+  - Confirmation page - no errors found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fconfirmation.html)
+  - Contacts page - no errors found when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fcontacts.html)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
-- No bugs found
+- No bugs were found
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+- Site was deployed to GitHub pages. This steps were applied: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
@@ -99,8 +116,8 @@ Live project can be found here - https://dimmanzo.github.io/culinary-academy/ind
 
 ### Content 
 
-- The text for the Home, About us and Confirmation pages was written with a help of [ChatGPT](https://chat.openai.com/) and improved by developer.
-- Some ideas were taken from the Love running project: [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3).
+- The text for all of the pages was written by a developer with help of [ChatGPT](https://chat.openai.com/).
+- Some ideas were taken from the Love Running project: [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3).
 - The icons in the footer were taken from: [Font Awesome](https://fontawesome.com/).
 
 ### Media
