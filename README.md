@@ -78,10 +78,10 @@ If this section grows too long, you may want to split it off into a separate fil
   - About us page - no errors found when passing through the offficial [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fabout-us.html)
   - Sing up page - no errors found when passing through the offficial [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fsign-up.html)
   - Confirmation page - no errors found when passing through the offficial [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fconfirmation.html)
-  - Contacts page - no errors found when passing through the offficial [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Findex.html)
+  - Contacts page - no errors found when passing through the offficial [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fcontacts.html)
 
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
