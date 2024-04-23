@@ -4,7 +4,7 @@
 
 Culinary Academy is a FICTIONARY site about a online cooking school. 
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/Dimmanzo/culinary-academy/blob/main/media/culinary-academy-mockup.png)
 
 ## Features 
 
