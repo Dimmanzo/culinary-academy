@@ -62,7 +62,7 @@ Culinary Academy is a FICTIONAL site about a cooking school. The website design 
 
 ## Testing 
 
-| Action  | Result | Fail  |
+| Action  | Result | Pass or Fail  |
 | :-: | :-: | :-: |
 | Press on Logo | Redirected to index.html page | ✅ |
 | Press on Home | Redirected to index.html page | ✅ |
