@@ -16,58 +16,49 @@ In this section, you should go over the different parts of your project, and des
 
   - Featured on all 5 pages, responsive navigation bar includes links to the
   Home, About us, Sign up and Contacts pages and is identical in each page to allow for easy navigation.
-  - Section allows users to easily navigate from page to page across all devices without having to revert back to the previous page.
+  - This section allows users to easily navigate from page to page across all devices without having to revert back to the previous page.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/Dimmanzo/culinary-academy/blob/main/media/nav-bar.png)
 
-- __The landing page image__
+- __Home page__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - Home page design: includes a logo, background and chefs image of Culinary Academy. In the middle of the website you'll find a box with all information about the school.
+  - This page introduces the user to website theme: Cooking school.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Home page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/home-page.png)  
 
-- __Club Ethos Section__
+- __Footer__ 
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The Footer section includes links to the relevant social media sites. All links open up in a new tab to allow easy navigation for the user. 
+  - Also footer has a copyright information. To deter unauthorized use of your website content.
+  - The footer is valuable to the user as it encourages them to keep connected via social media and also with copyright it secures the web page.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Footer](https://github.com/Dimmanzo/culinary-academy/blob/main/media/footer.png)
 
-- __Meetup Times section__
+- __About us page__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - The about us page will provide the user with additional information about the school. 
+  - This section is valuable to the user as they will be able to easily identify what skills can they learn during these studies and also get a little bit more information about school's foundation and main goal. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![About us](ttps://github.com/Dimmanzo/culinary-academy/blob/main/media/about-us-page.png)
 
-- __The Footer__ 
+- __Sign Up page__
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - This page will allow the user to get signed up to Culinary Academy to start their cooking journey with an amazing community. The user will be asked to submit their full name, email address, age and country. 
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Sign up](https://github.com/lucyrush/readme-template/blob/master/media/sign-up-page.png)
 
-- __Gallery__
+- __Confirmation page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - After signing up user will be redirected to another page called: confirmation page. This page which will send all of the data to the database and also thank the user for signing up.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Confirmation](https://github.com/lucyrush/readme-template/blob/master/media/confirmation-page.png)
 
-- __The Sign Up Page__
+- __Contacts page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - After signing up user will be redirected to another page called: confirmation page. This page which will send all of the data to the database and also thank the user for signing up.
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
+![Contacts](https://github.com/lucyrush/readme-template/blob/master/media/contacts-page.png)
 
 ## Testing 
 
