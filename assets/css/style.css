@@ -250,6 +250,7 @@ main {
 #contacts-box h3 {
     margin-top: 15px;
     margin-bottom: 5px;
+    text-align: left;
 }
 
 #contacts-box a {

@@ -146,10 +146,10 @@ Live project can be found here - https://dimmanzo.github.io/culinary-academy/ind
 
 ## Technologies used
 
-### HTML
-### CSS
-### JavaScript
-### Python
+- HTML
+- CSS
+- JavaScript
+- Python
 
 ## Credits 
 
