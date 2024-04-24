@@ -134,18 +134,20 @@ Live project can be found here - https://dimmanzo.github.io/culinary-academy/ind
 
 ### Cloning
 
-- On GitHub.com, navigate to the main page of the repository.
-- Above the list of files, click <> Code.
-- Copy the URL for the repository.
-- Type git clone, and then paste the URL you copied earlier.
-- Press Enter to create your local clone.
+- Cloning a repository means making a copy of a project from GitHub onto your computer, so you can work on it locally.
+  - On GitHub.com, navigate to the main page of the repository.
+  - Above the list of files, click <> Code.
+  - Copy the URL for the repository.
+  - Type git clone, and then paste the URL you copied earlier.
+  - Press Enter to create your local clone.
 
 ### Forking
 
-- On GitHub.com, navigate to the main page of the repository.
-- In the top-right corner of the page, click Fork.
-- Under "Owner," select the dropdown menu and click an owner for the forked repository.
-- Click Create fork.
+- Forking a repository involves creating your own version of someone else's project on GitHub, allowing you to modify it without altering the original.
+  - On GitHub.com, navigate to the main page of the repository.
+  - In the top-right corner of the page, click Fork.
+  - Under "Owner," select the dropdown menu and click an owner for the forked repository.
+  - Click Create fork.
 
 ## Technologies used
 
