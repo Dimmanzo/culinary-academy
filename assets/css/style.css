@@ -111,7 +111,8 @@ main {
     margin-right: auto;
 }
 
-#index-box h2, h3 {
+#index-box h2,
+#index-box h3 {
     text-align: center;
     margin-bottom: 10px;
 }
@@ -150,7 +151,8 @@ main {
     margin-bottom: 20px;
 }
 
-#aboutus-box h2, h3 {
+#aboutus-box h2,
+#aboutus-box h3 {
     text-align: center;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -250,8 +252,6 @@ main {
 #contacts-box h3 {
     margin-top: 15px;
     margin-bottom: 5px;
-    text-align: left;
-    text-align: left;
 }
 
 #contacts-box a {
