@@ -6,6 +6,7 @@ Culinary Academy is a FICTIONAL site about a cooking school. The website design 
 
 ![Responsive Mockup](https://github.com/Dimmanzo/culinary-academy/blob/main/media/culinary-academy-mockup.png)
 
+
 ## Features 
 
 ### Existing Features
@@ -60,6 +61,7 @@ Culinary Academy is a FICTIONAL site about a cooking school. The website design 
 
 ![Contacts](https://github.com/Dimmanzo/culinary-academy/blob/main/media/contacts-page.png)
 
+
 ## Testing 
 
 | Action  | Result | Pass or Fail  |
@@ -86,6 +88,14 @@ Culinary Academy is a FICTIONAL site about a cooking school. The website design 
 
 - After testing website with a lighthouse tool I noticed that performance was below 80%, so had to spend some time finding ways to increase that. Compressing images and preloading them fixed the problem.
 
+
+# Bugs
+
+- Solved bugs
+  - After deploying project to GitHub, images on About us page would not load. 
+  - The error was in my file path to the images. href="/assets/images/abus-1.webp"
+  - After removing "/" before assets, fixed my problem.
+
 ### Validator Testing 
 
 - HTML
@@ -99,14 +109,13 @@ Culinary Academy is a FICTIONAL site about a cooking school. The website design 
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 - Lighthouse testing (Google Chrome - Incognito mode)
-  - ![Home page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-home-page.png), ![About us page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-about-us-page.png), ![Sign up page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-sign-up-page.png), ![Confirmation page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-confirmation-page.png), ![Contacts page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-contacts-page.png).
-
-
+  - ![Home page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-home-page.png) ![About us page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-about-us-page.png) ![Sign up page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-sign-up-page.png) ![Confirmation page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-confirmation-page.png) ![Contacts page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-contacts-page.png)
 
 
 ### Unfixed Bugs
 
 - No bugs were found
+
 
 ## Deployment
 
@@ -126,12 +135,14 @@ Live project can be found here - https://dimmanzo.github.io/culinary-academy/ind
 - Some ideas were taken from the Love Running project: [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3).
 - The icons in the footer were taken from: [Font Awesome](https://fontawesome.com/).
 
+
 ### Media
 
 - Favicon and logo on the main page was made by a developer: [Logo.com](https://logo.com/).
 - The images used for the backgrounds of the pages were taken from these open source sites:
 [Home](https://www.pexels.com/photo/fruit-salads-in-plate-1640774/), [About us](https://unsplash.com/photos/three-round-white-plates-with-pasta-near-two-glass-cuups--F_5g8EEHYE), [Sign up](https://pixabay.com/photos/cooking-ingredients-flat-lay-bake-5880136/), [Contacts](https://unsplash.com/photos/variety-of-sliced-fruits-08bOYnH_r_E).
 - The images used for the home, about us pages were taken from this other open source site: [Home - 1](https://www.stockfood.com/images/00264056-Three-chefs-examining-the-contents-of-a-pan), [About us - 1](https://www.pexels.com/photo/men-cooking-in-the-kitchen-6823598/), [About us - 2](https://www.pexels.com/photo/happy-asian-women-with-dish-in-plate-5908197/), [About us - 3](https://www.pexels.com/photo/a-chef-tossing-fried-rice-from-the-pan-6937437/), [About us - 4](https://www.pexels.com/photo/man-in-white-dress-shirt-holding-silver-bowl-4253312/).
+
 
 ### Features
 
