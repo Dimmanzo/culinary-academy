@@ -89,7 +89,7 @@ Culinary Academy is a FICTIONAL site about a cooking school. The website design 
 - After testing website with a lighthouse tool I noticed that performance was below 80%, so had to spend some time finding ways to increase that. Compressing images and preloading them fixed the problem.
 
 
-# Bugs
+## Bugs
 
 - Solved bugs
   - After deploying project to GitHub, images on About us page would not load. 
