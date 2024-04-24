@@ -30,7 +30,7 @@ Culinary Academy is a FICTIONAL site about a cooking school. The website design 
 
   - The Footer section includes links to the relevant social media sites. All links open up in a new tab to allow easy navigation for the user. 
   - Also footer includes a copyright information. To deter unauthorized use of your website content.
-  - The footer is valuable to the user as it encourages them to keep connected via social media and also with copyright it secures the web page.
+  - The footer is valuable to the user as it encourages them to keep connected via social media and also with copyright it secures the webpage.
 
 ![Footer](https://github.com/Dimmanzo/culinary-academy/blob/main/media/footer.png)
 
@@ -74,7 +74,7 @@ Culinary Academy is a FICTIONAL site about a cooking school. The website design 
 | No text in Sign up form inputs | Enter empty inputs notification | ✅ |
 | No age selection in Sign up form | Select one of the radio buttons notification | ✅ |
 | No country selection in Sign up form | Select one of the countries notification | ✅ |
-| Wrong email input in Sign up form | Include '@' in the email adress notification | ✅ |
+| Wrong email input in Sign up form | Include '@' in the email address notification | ✅ |
 | Press on Submit button after all inputs entered | Redirected to confirmation.html | ✅ |
 | Press on Email link in Contacts page | Opens the default email application | ✅ |
 | Press on Facebook icon in footer | Opens Facebook page in a new tab | ✅ |
@@ -149,7 +149,6 @@ Live project can be found here - https://dimmanzo.github.io/culinary-academy/ind
 - HTML
 - CSS
 - JavaScript
-- Python
 
 ## Credits 
 
