@@ -92,7 +92,6 @@ main {
     flex: 1 0 auto;
     margin-top: 29px;
     display: flex;
-
 }
 
 /* Home page */
@@ -102,7 +101,7 @@ main {
     flex-grow: 1;
 }
 
-#index-section {
+#index-box {
     color: #3b3b3b;
     background-color: #d7eef1c4;
     padding: 25px;
@@ -112,28 +111,26 @@ main {
     margin-right: auto;
 }
 
-#index-section h2, 
-#index-section h3 {
+#index-box h2, h3 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-#index-section img {
+#index-box img {
     display: block;
     margin: 0 auto 20px;
     max-width: 60%;
 }
 
-#index-section p,
-#index-section li {
+#index-box p, li {
     margin-bottom: 10px;
 }
 
-#index-section ul {
+#index-box ul {
     list-style-type: none;
 }
 
-#index-section ul li u {
+#index-box ul li u {
     display: block;
     margin-bottom: 5px;
 }
@@ -153,8 +150,7 @@ main {
     margin-bottom: 20px;
 }
 
-#aboutus-box h2,
-#aboutus-box h3 {
+#aboutus-box h2, h3 {
     text-align: center;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -186,7 +182,7 @@ main {
     padding: 25px;
 }
 
-#signup-form>h2 {
+#signup-form > h2 {
     color: #3b3b3b;
     margin-bottom: 10px;
 }
@@ -228,8 +224,7 @@ main {
     margin-right: auto;
 }
 
-#confirmation-box h2,
-#confirmation-box h3 {
+#confirmation-box h2 {
     text-align: center;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -269,8 +264,7 @@ footer {
     text-align: center;
 }
 
-#social-networks {
-    
+#social-networks {    
     text-align: center;
     padding: 5px 0;
     display: flex;
@@ -391,9 +385,8 @@ footer {
         width: 10%;
     }
 
-    #index-section {
+    #index-box {
         width: 70%;
-
     }
 
     /* About us */
@@ -404,8 +397,8 @@ footer {
     }
 
     #aboutus-box img {
-        width: 12rem;
-        margin-left: 2%;
+        width: 11rem;
+        margin-left: 15px;
     }
 
     /* Sign up */

@@ -94,7 +94,7 @@ Culinary Academy is a FICTIONAL site about a cooking school. The website design 
 - Solved bugs
   - After deploying project to GitHub, images on About us page would not load. 
   - The error was in my file path to the images. href="/assets/images/abus-1.webp"
-  - After removing "/" before assets, fixed my problem.
+  - Removing "/" in file path before assets, fixed my problem.
 
 ### Validator Testing 
 
@@ -127,18 +127,42 @@ Culinary Academy is a FICTIONAL site about a cooking school. The website design 
 Live project can be found here - https://dimmanzo.github.io/culinary-academy/index.html 
 
 
+## Publishing
+
+### Cloning
+
+- On GitHub.com, navigate to the main page of the repository.
+- Above the list of files, click <> Code.
+- Copy the URL for the repository.
+- Type git clone, and then paste the URL you copied earlier.
+- Press Enter to create your local clone.
+
+### Forking
+
+- On GitHub.com, navigate to the main page of the repository.
+- In the top-right corner of the page, click Fork.
+- Under "Owner," select the dropdown menu and click an owner for the forked repository.
+- Click Create fork.
+
+## Technologies used
+
+- HTML, CSS, JavaScript, Python
+
 ## Credits 
 
 ### Content 
 
-- The text for all of the pages was written by a developer with help of [ChatGPT](https://chat.openai.com/).
+- The text for all of the pages was written by me with help of [ChatGPT](https://chat.openai.com/).
+- I got some help with the code from resources I found online, mostly through Google searches.
 - Some ideas were taken from the Love Running project: [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3).
 - The icons in the footer were taken from: [Font Awesome](https://fontawesome.com/).
+- Cloning idea was given by Mentor and taken from: [Cloning](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+- Forking idea was given by Mentor and taken from: [Forking](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo).
 
 
 ### Media
 
-- Favicon and logo on the main page was made by a developer: [Logo.com](https://logo.com/).
+- Favicon and logo on the main page was made by me: [Logo.com](https://logo.com/).
 - The images used for the backgrounds of the pages were taken from these open source sites:
 [Home](https://www.pexels.com/photo/fruit-salads-in-plate-1640774/), [About us](https://unsplash.com/photos/three-round-white-plates-with-pasta-near-two-glass-cuups--F_5g8EEHYE), [Sign up](https://pixabay.com/photos/cooking-ingredients-flat-lay-bake-5880136/), [Contacts](https://unsplash.com/photos/variety-of-sliced-fruits-08bOYnH_r_E).
 - The images used for the home, about us pages were taken from this other open source site: [Home - 1](https://www.stockfood.com/images/00264056-Three-chefs-examining-the-contents-of-a-pan), [About us - 1](https://www.pexels.com/photo/men-cooking-in-the-kitchen-6823598/), [About us - 2](https://www.pexels.com/photo/happy-asian-women-with-dish-in-plate-5908197/), [About us - 3](https://www.pexels.com/photo/a-chef-tossing-fried-rice-from-the-pan-6937437/), [About us - 4](https://www.pexels.com/photo/man-in-white-dress-shirt-holding-silver-bowl-4253312/).
