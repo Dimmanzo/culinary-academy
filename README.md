@@ -98,6 +98,12 @@ Culinary Academy is a FICTIONAL site about a cooking school. The website design 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdimmanzo.github.io%2Fculinary-academy%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+- Lighthouse testing (Google Chrome - Incognito mode)
+  - ![Home page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-home-page.png), ![About us page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-about-us-page.png), ![Sign up page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-sign-up-page.png), ![Confirmation page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-confirmation-page.png), ![Contacts page](https://github.com/Dimmanzo/culinary-academy/blob/main/media/lighthouse-contacts-page.png).
+
+
+
+
 ### Unfixed Bugs
 
 - No bugs were found
